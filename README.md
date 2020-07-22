@@ -1,4 +1,4 @@
-# WEDDING XPERIENCE is a web application developed with React.
+# Wedding Xperience is a web application developed with React.
 
 ## Purpose
 > There comes a time when a man and a woman decide they would want to spend the rest of their lives together. It's all exciting, right? However, it comes along with a lot of work. I mean pre-wedding planning & organising. This is where the *Wedding Xperience* application comes in handy. 
