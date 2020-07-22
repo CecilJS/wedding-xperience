@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -12,11 +13,12 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/CecilJS/wedding-xperience"
           target="_blank"
           rel="noopener noreferrer"
+          title="We need to know why"
         >
-          Learn React
+          View Source Code
         </a>
       </header>
     </div>

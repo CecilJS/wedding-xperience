@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  
+}
+
+p {
+  text-shadow: #FC0 1px 0 10px;
 }
 
 .App-logo {
@@ -14,7 +19,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(lets-travel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +33,21 @@
 
 .App-link {
   color: #61dafb;
+  background-color: #fafafa;
+  padding: 10px;
+  box-shadow: 3px 3px #61dafb, -0.2em 0 .4em #61dafb;
+  
+}
+
+a {
+
+  text-decoration: none;
+}
+
+.App-link:hover {
+  color: #fafafa;
+  background-color: #61dafb  ;
+
 }
 
 @keyframes App-logo-spin {
