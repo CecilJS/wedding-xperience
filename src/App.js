@@ -18,7 +18,7 @@ function App() {
           rel="noopener noreferrer"
           title="We need to know why"
         >
-          Source Code
+        Code
         </a>
       </header>
     </div>
