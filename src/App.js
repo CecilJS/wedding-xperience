@@ -1,27 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Route, Switch } from "react-router-dom";
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Contact from './components/Contact';
+import Event from './components/Event';
+import Footer from './components/Footer'
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Wedding Xperience website in development
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/CecilJS/wedding-xperience"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="We need to know why"
-        >
-        Code
-        </a>
-      </header>
-    </div>
+        <div>
+            <Navbar/>
+              
+            <Switch>
+              <Route exact path="/" component={Home}>
+            
+              </Route>
+              <Route path="/event" component={Event}>
+              
+              </Route>
+              <Route path="/contact" component={Contact}>
+              
+              </Route>
+
+            </Switch>
+            
+            <Footer/>
+        </div>
   );
 }
 
