@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import background from '../images/bg-img.jpg';
+import background from '../images/worldwide.gif';
 
 
 const ourCore = ['story'];
@@ -66,11 +66,11 @@ class Home extends Component {
       
         return (
             <section >
-            <div className="container row" id="cta" style={{ backgroundImage: `url(${background})` }}>
-              <div className="col l12 m12 s12">
+            <div className="container row" id="cta" >
+              <div className="col l12 m12 s12" style={{ backgroundImage: `url(${background})`, backgroundRepeat: "no-repeat" }}>
                 <p > JEREMIAH WEDS ANGELA</p>
                 <h1>We have a <span id="ourCore">{theCore}</span></h1>
-                <p >Welcome to our wedding page</p>
+                <p id="intro">Welcome to our wedding page</p>
                 <button className="waves-effect waves-light btn" data-aos="fade-right" id="learn" ><a href="/about" alt="this is just to lead to more info"><i className="material-icons right"></i>Learn more</a></button>
                
               </div>

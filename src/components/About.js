@@ -23,7 +23,7 @@ import background from '../images/bg-img.jpg';
         <section className="container" id="contact-page" data-aos="zoom-in-right">
         <section className="row">
         <h1>Our story</h1>
-        <section className="col l7 m12 s12" style={{ backgroundImage: `url(${background})` }}>
+        <section className="col l7 m12 s12" style={{ backgroundImage: `url(${background})`, backgroundRepeat: "no-repeat" }}>
            
                               <Row>
                               <Col

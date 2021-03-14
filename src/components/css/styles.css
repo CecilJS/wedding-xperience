@@ -11,13 +11,12 @@
 
 
 
+
 h1{
   
     font-size: 5em!important;
     font-family: 'Nunito', sans-serif;
     color: #CC0000!important;
-    background-color: #fafafa;
-    
     opacity: .9;
     width: 50%;
 }
@@ -177,30 +176,39 @@ p{
     padding-bottom: 10%;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 #cta p{
     font-size: 2em;
-    color: #7F817E!important;
+    font-weight: bold;
+    color: #CC0000!important;
+    opacity: .7;
     font-family: 'Open Sans', sans-serif;
 }
 
+#cta #intro {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #CC0000!important;
+
+}
 #ourCore {
     color: #FFCC00;
     text-shadow: 3px 1px 1px #CC0000;
    
 }
 
-#learn-more {
+#learn {
     font-family: 'Open Sans', sans-serif; 
-    font-size: 1.2em!important;
-    height: 100px;
-    width: 50%;
+    
+    margin-bottom: 15%!important;
 
 }
 
 #learn a {
     color: #fafafa!important;
+    
 }
 
 #learn a:hover {
