@@ -27,16 +27,16 @@ import background from '../images/bg-img.jpg';
                               >
                                 <Card
                                   actions={[
-                                    <a key="1" href="#">This is a link</a>
+                                    <a key="1" href="./components/docs/PROGRAM.pdf" download ="PROGRAM.pdf">DOWNLOAD PROGRAM</a>
                                     
                                   ]}
                                   className="white darken-1"
                                   closeIcon={<Icon>close</Icon>}
                                   revealIcon={<Icon>more_vert</Icon>}
-                                  textClassName="red-text"
-                                  title="HOW TO CONTACT US"
+                                  textClassName="black-text"
+                                  title="DOWNLOAD THE PROGRAM"
                                 >
-                                  I am a very simple card.
+                                  A digital copy of the wedding program has been provided for your convinience. Please click the button below for your personal copy.
                                 </Card>
                               </Col>
                             </Row>
@@ -49,16 +49,17 @@ import background from '../images/bg-img.jpg';
                               >
                                 <Card
                                   actions={[
-                                    <a key="1" href="#">This is a link</a>
+                                    <a key="1" href="https://bit.ly/3uVKZCE" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                                     
                                   ]}
                                   className="white darken-1"
                                   closeIcon={<Icon>close</Icon>}
                                   revealIcon={<Icon>more_vert</Icon>}
-                                  textClassName="red-text"
+                                  textClassName="black-text"
                                   title="HOW TO CONTACT US"
                                 >
-                                  I am a very simple card.
+                                  Do you have any queries? <br></br> We will be happy to help. <br></br> <br></br>Would you like to give the couple a gift? <br></br> We can be your courier.<br></br><br></br>
+                                  Are you experiencing any technical issues connecting to zoom? <br></br><br></br>Please send all your queries across via WhatsApp using the button below.
                                 </Card>
                               </Col>
                             </Row>

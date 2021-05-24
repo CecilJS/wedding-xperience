@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 
 /*
 ====================
@@ -14,15 +17,15 @@
 
 h1{
   
-    font-size: 5em!important;
-    font-family: 'Nunito', sans-serif;
+    font-size: 4em!important;
+    font-family: 'Cinzel', serif;
     color: #CC0000!important;
     opacity: .9;
     width: 50%;
 }
 
 p{
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Lato', sans-serif;   
     text-align: justify;
 }
 
@@ -184,7 +187,7 @@ p{
     font-weight: bold;
     color: #CC0000!important;
     opacity: .7;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #cta #intro {
