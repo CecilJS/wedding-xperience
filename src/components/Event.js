@@ -64,28 +64,6 @@ import background from '../images/bg-img.jpg';
                               </Col>
                             </Row>
                  </section> 
-                 <section classNameName="col l12 m12 s12">
-                         <Row>
-                              <Col
-                                m={6}
-                                s={12}
-                              >
-                                <Card
-                                  actions={[
-                                    <a key="1" href="#">This is a link</a>
-                                    
-                                  ]}
-                                  className="white darken-1"
-                                  closeIcon={<Icon>close</Icon>}
-                                  revealIcon={<Icon>more_vert</Icon>}
-                                  textClassName="red-text"
-                                  title="HOW TO CONTACT US"
-                                >
-                                  I am a very simple card.
-                                </Card>
-                              </Col>
-                            </Row>
-                 </section>    
                 </section>
             </div>
         )
