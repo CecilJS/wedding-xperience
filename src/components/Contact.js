@@ -29,44 +29,21 @@ import background from '../images/bg-img.jpg';
                                 m={6}
                                 s={12}
                               >
-                                <Card
-                                  actions={[
-                                    <a key="1" href="#">email</a>
-                                    
-                                  ]}
+                                <Card actions={[<a key="1" href="https://bit.ly/3uVKZCE" target="_blank" rel="noopener noreferrer">WhatsApp</a>]}
                                   className="white darken-1"
                                   closeIcon={<Icon>close</Icon>}
                                   revealIcon={<Icon>more_vert</Icon>}
-                                  textClassName="red-text"
+                                  textClassName="black-text"
                                   title="HOW TO CONTACT US"
-                                >
-                                  I am a very simple card.
+                                  >
+                                  <p>
+                                  We are happy that you have decided to join us on our big day. If you have any queries at all that we can help with, please do not hesitate to reach out. 
+                                  Use the button below to contact us via WhatsApp and we will be in touch with you shortly, thank you.
+                                  </p>
                                 </Card>
                               </Col>
                             </Row>
-            </section>
-            <section className="col l12 m12 s12">
-                         <Row>
-                              <Col
-                                m={6}
-                                s={12}
-                              >
-                                <Card
-                                  actions={[
-                                    <a key="1" href="#">whatsapp</a>
-                                    
-                                  ]}
-                                  className="white darken-1"
-                                  closeIcon={<Icon>close</Icon>}
-                                  revealIcon={<Icon>more_vert</Icon>}
-                                  textClassName="red-text"
-                                  title="HOW TO CONTACT US"
-                                >
-                                  I am a very simple card.
-                                </Card>
-                              </Col>
-                            </Row>
-                 </section>      
+            </section>      
           </section>         
         </section>
         )

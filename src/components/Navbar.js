@@ -60,8 +60,8 @@ import 'aos/dist/aos.css';
       const {showNavItems, changeToggler} = this.state;
         return (
            
-                <nav id="custom-nav">
-                    <div className="nav-wrapper">
+                <nav id="custom-nav"> 
+                    <div className="nav-wrapper"> 
                     <Link to="/" onClick={this.hideListItems}>
               
                     </Link>
@@ -81,6 +81,7 @@ import 'aos/dist/aos.css';
                         </li>
                        </ul>) : null}
                     </div>
+                   <span className="menu" onClick={this.toggleEvent}>Menu</span> 
                     <div className="right"  id={changeToggler ? "transformed-toggler" : "toggler"} onClick={this.toggleEvent}> 
                       <div>
                       </div>

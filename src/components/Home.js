@@ -68,9 +68,9 @@ class Home extends Component {
             <section >
             <div className="container row" id="cta" >
               <div className="col l12 m12 s12" style={{ backgroundImage: `url(${background})`, backgroundRepeat: "no-repeat" }}>
-                <p > JEREMIAH WEDS ANGELA</p>
+                <p> Jeremiah Weds Angela</p>
                 <h1>We have a <span id="ourCore">{theCore}</span></h1>
-                <p id="intro">Welcome to our wedding page</p>
+                <p id="intro">Welcome to Our Wedding Page</p>
                 <button className="waves-effect waves-light btn" data-aos="fade-right" id="learn" ><a href="/about" alt="this is just to lead to more info"><i className="material-icons right"></i>Learn more</a></button>
                
               </div>

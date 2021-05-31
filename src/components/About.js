@@ -20,7 +20,7 @@ import background from '../images/bg-img.jpg';
 
     render() {
         return (
-        <section className="container" id="contact-page" data-aos="zoom-in-right">
+        <section className="container" data-aos="zoom-in-right">
         <section className="row">
         <h1>Our story</h1>
         <section className="col l7 m12 s12" style={{ backgroundImage: `url(${background})`, backgroundRepeat: "no-repeat" }}>
@@ -41,17 +41,23 @@ import background from '../images/bg-img.jpg';
                                   textClassName="black-text"
                                   title="THIS IS OUR STORY"
                                   >
+                                  <p> 
                                   Angela and Jeremiah first met about three years ago while she was on her trip to Ghana. 
                                   Angela had wished to visit Bethel with her family and Jeremiah happened to be in charge of planning their tour.
+                                  </p>
                                   <br/>
                                   <br/>
+                                  <p>
                                   Never could they have imagined how that encounter would change their lives forever. 
                                   It started with a simple lunch and followed up with a memorable dinner a week after…
                                   We kept in touch and as time passed we started noticing how much we enjoyed each other’s company and admired each other’s qualities.
+                                  </p>
                                   <br/>
                                   <br/>
+                                  <p>
                                   We became very good friends, and the love grew quickly. A year and a half later we got engaged and have been eagerly waiting for our big day.  
                                   We are so looking forward to starting this new chapter together, and can’t wait to celebrate with you.
+                                  </p>
                                 </Card>
                               </Col>
                             </Row>
