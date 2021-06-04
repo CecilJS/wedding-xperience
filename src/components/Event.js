@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import 'materialize-css';
 import { Card, Row, Col, Icon  } from 'react-materialize';
 import background from '../images/bg-img.jpg';
+import program from '../docs/PROGRAM.pdf';
 
  class Event extends Component {
 
@@ -27,7 +28,7 @@ import background from '../images/bg-img.jpg';
                               >
                                 <Card
                                   actions={[
-                                    <a key="1" href="./components/docs/PROGRAM.pdf" download>DOWNLOAD PROGRAM</a>
+                                    <a key="1" href={program} download>DOWNLOAD PROGRAM</a>
                                     
                                   ]}
                                   className="white darken-1"
