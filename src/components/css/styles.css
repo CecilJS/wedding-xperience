@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
@@ -62,7 +62,7 @@ p{
 #custom-nav ul a, 
 #custom-nav #brand {
     color: #ffff!important;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
    
 
@@ -470,14 +470,14 @@ cursor: pointer;
 h1{
   
     font-size: 4.5em!important;
-    font-family: 'Nunito', sans-serif;
     color: #CC0000!important;
 }
 
-p{
+/*p{
     font-family: 'Open Sans', sans-serif;   
 
 }
+*/
 
 #custom-nav{
 
@@ -508,8 +508,8 @@ p{
 
  
 #custom-nav #brand {
-    color: #7F817E!important;
-    font-family: 'Open Sans', sans-serif;
+    color: #fafafa!important;
+    font-family: 'Sacramento', cursive;
     font-size: 1.5em!important;
     font-weight: bold!important;
 
@@ -650,11 +650,11 @@ p{
     background-size: cover;
 }
 
-#cta p{
+/*#cta p{
     font-size: 3em;
     color: #7F817E!important;
     font-family: 'Open Sans', sans-serif;
-}
+}*/
 
 
 
@@ -948,15 +948,14 @@ footer{
 h1{
   
     font-size: 4.5em!important;
-    font-family: 'Nunito', sans-serif;
     color: #CC0000!important;
 }
 
-p{
+/*p{
     font-family: 'Open Sans', sans-serif;   
 
 }
-
+*/
 #custom-nav{
 
     background-color: #ffffff!important;
@@ -986,9 +985,9 @@ p{
 
  
 #custom-nav #brand {
-    color: #7F817E!important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em!important;
+    color: #CC0000!important;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em!important;
 
 }
 
@@ -1123,13 +1122,13 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*
 #cta p{
     font-size: 2.5em;
     color: #7F817E!important;
     font-family: 'Open Sans', sans-serif;
 }
-
+*/
 
 
 #learn-more {
@@ -1362,18 +1361,17 @@ p{
 h1{
   
     font-size: 4.5em!important;
-    font-family: 'Nunito', sans-serif;
     color: #CC0000!important;
 }
-
+/*
 p{
     font-family: 'Open Sans', sans-serif;   
 
-}
+}*/
 
 #custom-nav{
 
-    background-color: #CC0000!important;
+    background-color: #ffffff!important;
     color: #7F817E!important;
     border-bottom: none!important;
     box-shadow: none!important;
@@ -1400,9 +1398,9 @@ p{
 
  
 #custom-nav #brand {
-    color: #7F817E!important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em!important;
+    color: #CC0000!important;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em!important;
 
 }
 
@@ -1539,13 +1537,13 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*
 #cta p{
     font-size: 2.5em;
     color: #7F817E!important;
     font-family: 'Open Sans', sans-serif;
 }
-
+*/
 
 
 #learn-more {
@@ -1834,15 +1832,14 @@ p{
 h1{
   
     font-size: 4.5em!important;
-    font-family: 'Nunito', sans-serif;
     color: #CC0000!important;
 }
-
+/*
 p{
     font-family: 'Open Sans', sans-serif;   
 
 }
-
+*/
 #custom-nav{
 
     background-color: #ffffff!important;
@@ -1872,10 +1869,12 @@ p{
 
  
 #custom-nav #brand {
-    color: #7F817E!important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em!important;
-
+    color: #CC0000!important;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em!important;
+    position: relative;
+    bottom: 20%;
+    font-weight: bold;  
 }
 
 #custom-nav img {
@@ -1883,12 +1882,6 @@ p{
     margin-right: 10px;
 }
 
-#custom-nav #brand{
-    font-size: 1.3em;
-    position: relative;
-    bottom: 20%;
-    font-weight: bold;  
-}
 
 
 #toggler {
@@ -2008,13 +2001,13 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*
 #cta p{
     font-size: 2.5em;
     color: #7F817E!important;
     font-family: 'Open Sans', sans-serif;
 }
-
+*/
 
 
 #learn-more {
@@ -2297,15 +2290,15 @@ p{
 h1{
   
     font-size: 4.5em!important;
-    font-family: 'Nunito', sans-serif;
+    
     color: #CC0000!important;
 }
-
+/*
 p{
     font-family: 'Open Sans', sans-serif;   
 
 }
-
+*/
 #custom-nav{
 
     background-color: #ffffff!important;
@@ -2336,8 +2329,11 @@ p{
 
 #custom-nav #brand {
     color: #CC0000!important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em!important;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em!important;
+    position: relative;
+    bottom: 20%;
+    font-weight: bold;  
 
 }
 
@@ -2346,12 +2342,6 @@ p{
     margin-right: 10px;
 }
 
-#custom-nav #brand{
-    font-size: 1.3em;
-    position: relative;
-    bottom: 20%;
-    font-weight: bold;  
-}
 
 
 #toggler {
@@ -2475,12 +2465,12 @@ p{
     background-size: cover;
     z-index: 1;
 }
-
+/*
 #cta p{
     font-size: 2.5em;
     color: #7F817E!important;
     font-family: 'Open Sans', sans-serif;
-}
+}*/
 
 
 
@@ -2773,14 +2763,13 @@ p{
 h1{
   
     font-size: 4.5em!important;
-    font-family: 'Nunito', sans-serif;
     color: #CC0000!important;
 }
-
+/*
 p{
     font-family: 'Open Sans', sans-serif;   
 
-}
+}*/
 
 #custom-nav{
 
@@ -2812,21 +2801,16 @@ p{
 
 #custom-nav #brand {
     color: #CC0000!important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em!important;
-
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5em!important;
+    position: relative;
+    bottom: 20%;
+    font-weight: bold;  
 }
 
 #custom-nav img {
     margin-top: 8px;
     margin-right: 10px;
-}
-
-#custom-nav #brand{
-    font-size: 1.3em;
-    position: relative;
-    bottom: 20%;
-    font-weight: bold;  
 }
 
 
@@ -2952,13 +2936,13 @@ p{
     background-size: cover;
     z-index: 1;
 }
-
+/*
 #cta p{
     font-size: 2.5em;
     color: #7F817E!important;
     font-family: 'Open Sans', sans-serif;
 }
-
+*/
 
 
 #learn-more {
