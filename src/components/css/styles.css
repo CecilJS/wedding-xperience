@@ -69,7 +69,7 @@ p{
     position: relative;
     bottom: 20%;
     font-weight: bold;  
-    font-family: 'Sacramento', cursive;
+    font-family: 'Cookie', cursive;
 }
 
 
@@ -228,11 +228,7 @@ cursor: pointer;
     
 }
 
-#cta #intro-message-1 {
 
-    box-shadow: 10px 5px 5px red;
-    width: 30%;
-}
 #cta #intro-message-1, #cta #intro-message-2 {
     font-family: 'Cookie', cursive;
     font-size: 2em;

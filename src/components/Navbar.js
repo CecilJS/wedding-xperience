@@ -65,7 +65,7 @@ import 'aos/dist/aos.css';
                     <Link to="/" onClick={this.hideListItems}>
               
                     </Link>
-                       <Link to="/" id="brand" data-aos="zoom-in-right">JellaWeds</Link>
+                       <Link to="/" id="brand" data-aos="zoom-in-right">JellahWeds</Link>
                    {showNavItems ? ( <ul id="nav-mobile" className="right" onClick={this.hideListItems}>
                        <li>
                           <Link to="/about" data-aos="zoom-in-left">About Us</Link>
