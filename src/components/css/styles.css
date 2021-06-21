@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
 /*
 ====================
@@ -40,16 +41,6 @@ p{
     
 }
 
-.btn {
-
-    background-color: #CC0000!important;
-}
-
-.btn:hover {
-    background-color: #fafafa!important;
-    color: #7F817E!important;
-    border: 1px solid #FFCC00!important;
-}
 
 #custom-nav img, #custom-nav #brand {
 
@@ -218,18 +209,35 @@ cursor: pointer;
     font-family: 'Open Sans', sans-serif; 
     
     margin-bottom: 15%!important;
+    background-color: #CC0000!important;
+}
 
+
+#learn:hover {
+    background-color: #fafafa!important;
+    color: #CC0000!important;
 }
 
 #learn a {
-    color: #fafafa!important;
+    color: #fafafa;
     
 }
 
 #learn a:hover {
     color: #CC0000!important;
+    
 }
 
+#cta #intro-message-1 {
+
+    box-shadow: 10px 5px 5px red;
+    width: 20%;
+}
+#cta #intro-message-1, #cta #intro-message-2 {
+    font-family: 'Cookie', cursive;
+    font-size: 2em;
+    
+}
 
 
 
@@ -291,7 +299,7 @@ cursor: pointer;
 
 #contact-heading {
 
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 0.9em;
 }
 

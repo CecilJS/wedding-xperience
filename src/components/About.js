@@ -42,7 +42,7 @@ import background from '../images/bg-img.jpg';
                                   title="THIS IS OUR STORY"
                                   >
                                   <p> 
-                                  Angela and Jeremiah first met about three years ago while she was on her trip to Ghana. 
+                                  Angela and Jeremiah first met about three years ago while she was on a trip to Ghana. 
                                   Angela had wished to visit Bethel with her family and Jeremiah happened to be in charge of planning their tour.
                                   </p>
                                   <br/>

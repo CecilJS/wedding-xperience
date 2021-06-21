@@ -19,7 +19,7 @@ import background from '../images/bg-img.jpg';
 
     render() {
         return (
-        <section className="container" id="contact-page" data-aos="zoom-in-right" style={{ backgroundImage: `url(${background})`, backgroundRepeat: "no-repeat" }}>
+        <section className="container" data-aos="zoom-in-right" style={{ backgroundImage: `url(${background})`, backgroundRepeat: "no-repeat" }}>
         <section className="row">
         <section className="col l12 m12 s12">
             <h1>How can we <span id="contact-heading"><br/>help?</span></h1>
