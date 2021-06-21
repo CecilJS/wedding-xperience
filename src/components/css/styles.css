@@ -231,7 +231,7 @@ cursor: pointer;
 #cta #intro-message-1 {
 
     box-shadow: 10px 5px 5px red;
-    width: 20%;
+    width: 30%;
 }
 #cta #intro-message-1, #cta #intro-message-2 {
     font-family: 'Cookie', cursive;
